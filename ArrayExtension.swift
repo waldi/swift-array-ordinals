@@ -1,398 +1,401 @@
 extension Array {
+    private func th(th:Int) -> Array.Generator.Element? {
+        return self.count >= th ? self[th] : nil   
+    }
     public var second: Array.Generator.Element? {
-        return self.count >= 1 ? self[1] : nil
+        return th(1)
     }
     
     public var third: Array.Generator.Element? {
-        return self.count >= 2 ? self[2] : nil
+        return th(2)
     }
     
     public var fourth: Array.Generator.Element? {
-        return self.count >= 3 ? self[3] : nil
+        return th(3)
     }
     
     public var fifth: Array.Generator.Element? {
-        return self.count >= 4 ? self[4] : nil
+        return th(4)
     }
     
     public var sixth: Array.Generator.Element? {
-        return self.count >= 5 ? self[5] : nil
+        return th(5)
     }
     
     public var seventh: Array.Generator.Element? {
-        return self.count >= 6 ? self[6] : nil
+        return th(6)
     }
     
     public var eighth: Array.Generator.Element? {
-        return self.count >= 7 ? self[7] : nil
+        return th(7)
     }
     
     public var ninth: Array.Generator.Element? {
-        return self.count >= 8 ? self[8] : nil
+        return th(8)
     }
     
     public var tenth: Array.Generator.Element? {
-        return self.count >= 9 ? self[9] : nil
+        return th(9)
     }
     
     public var eleventh: Array.Generator.Element? {
-        return self.count >= 10 ? self[10] : nil
+        return th(10)
     }
     
     public var twelfth: Array.Generator.Element? {
-        return self.count >= 11 ? self[11] : nil
+        return th(11)
     }
     
     public var thirteenth: Array.Generator.Element? {
-        return self.count >= 12 ? self[12] : nil
+        return th(12)
     }
     
     public var fourteenth: Array.Generator.Element? {
-        return self.count >= 13 ? self[13] : nil
+        return th(13)
     }
     
     public var fifteenth: Array.Generator.Element? {
-        return self.count >= 14 ? self[14] : nil
+        return th(14)
     }
     
     public var sixteenth: Array.Generator.Element? {
-        return self.count >= 15 ? self[15] : nil
+        return th(15)
     }
     
     public var seventeenth: Array.Generator.Element? {
-        return self.count >= 16 ? self[16] : nil
+        return th(16)
     }
     
     public var eighteenth: Array.Generator.Element? {
-        return self.count >= 17 ? self[17] : nil
+        return th(17)
     }
     
     public var nineteenth: Array.Generator.Element? {
-        return self.count >= 18 ? self[18] : nil
+        return th(18)
     }
     
     public var twentieth: Array.Generator.Element? {
-        return self.count >= 19 ? self[19] : nil
+        return th(19)
     }
     
     public var twentyFirst: Array.Generator.Element? {
-        return self.count >= 20 ? self[20] : nil
+        return th(20)
     }
     
     public var twentySecond: Array.Generator.Element? {
-        return self.count >= 21 ? self[21] : nil
+        return th(21)
     }
     
     public var twentyThird: Array.Generator.Element? {
-        return self.count >= 22 ? self[22] : nil
+        return th(22)
     }
     
     public var twentyFourth: Array.Generator.Element? {
-        return self.count >= 23 ? self[23] : nil
+        return th(23)
     }
     
     public var twentyFifth: Array.Generator.Element? {
-        return self.count >= 24 ? self[24] : nil
+        return th(24)
     }
     
     public var twentySixth: Array.Generator.Element? {
-        return self.count >= 25 ? self[25] : nil
+        return th(25)
     }
     
     public var twentySeventh: Array.Generator.Element? {
-        return self.count >= 26 ? self[26] : nil
+        return th(26)
     }
     
     public var twentyEighth: Array.Generator.Element? {
-        return self.count >= 27 ? self[27] : nil
+        return th(27)
     }
     
     public var twentyNinth: Array.Generator.Element? {
-        return self.count >= 28 ? self[28] : nil
+        return th(28)
     }
     
     public var thirtieth: Array.Generator.Element? {
-        return self.count >= 29 ? self[29] : nil
+        return th(29)
     }
     
     public var thirtyFirst: Array.Generator.Element? {
-        return self.count >= 30 ? self[30] : nil
+        return th(30)
     }
     
     public var thirtySecond: Array.Generator.Element? {
-        return self.count >= 31 ? self[31] : nil
+        return th(31)
     }
     
     public var thirtyThird: Array.Generator.Element? {
-        return self.count >= 32 ? self[32] : nil
+        return th(32)
     }
     
     public var thirtyFourth: Array.Generator.Element? {
-        return self.count >= 33 ? self[33] : nil
+        return th(33)
     }
     
     public var thirtyFifth: Array.Generator.Element? {
-        return self.count >= 34 ? self[34] : nil
+        return th(34)
     }
     
     public var thirtySixth: Array.Generator.Element? {
-        return self.count >= 35 ? self[35] : nil
+        return th(35)
     }
     
     public var thirtySeventh: Array.Generator.Element? {
-        return self.count >= 36 ? self[36] : nil
+        return th(36)
     }
     
     public var thirtyEighth: Array.Generator.Element? {
-        return self.count >= 37 ? self[37] : nil
+        return th(37)
     }
     
     public var thirtyNinth: Array.Generator.Element? {
-        return self.count >= 38 ? self[38] : nil
+        return th(38)
     }
     
     public var fourtieth: Array.Generator.Element? {
-        return self.count >= 39 ? self[39] : nil
+        return th(39)
     }
     
     public var fortyFirst: Array.Generator.Element? {
-        return self.count >= 40 ? self[40] : nil
+        return th(40)
     }
     
     public var fortySecond: Array.Generator.Element? {
-        return self.count >= 41 ? self[41] : nil
+        return th(41)
     }
     
     public var fortyThird: Array.Generator.Element? {
-        return self.count >= 42 ? self[42] : nil
+        return th(42)
     }
     
     public var fortyFourth: Array.Generator.Element? {
-        return self.count >= 43 ? self[43] : nil
+        return th(43)
     }
     
     public var fortyFifth: Array.Generator.Element? {
-        return self.count >= 44 ? self[44] : nil
+        return th(44)
     }
     
     public var fortySixth: Array.Generator.Element? {
-        return self.count >= 45 ? self[45] : nil
+        return th(45)
     }
     
     public var fortySeventh: Array.Generator.Element? {
-        return self.count >= 46 ? self[46] : nil
+        return th(46)
     }
     
     public var fortyEighth: Array.Generator.Element? {
-        return self.count >= 47 ? self[47] : nil
+        return th(47)
     }
     
     public var fortyNinth: Array.Generator.Element? {
-        return self.count >= 48 ? self[48] : nil
+        return th(48)
     }
     
     public var fiftieth: Array.Generator.Element? {
-        return self.count >= 49 ? self[49] : nil
+        return th(49)
     }
     
     public var fiftyFirst: Array.Generator.Element? {
-        return self.count >= 50 ? self[50] : nil
+        return th(50)
     }
     
     public var fiftySecond: Array.Generator.Element? {
-        return self.count >= 51 ? self[51] : nil
+        return th(51)
     }
     
     public var fiftyThird: Array.Generator.Element? {
-        return self.count >= 52 ? self[52] : nil
+        return th(52)
     }
     
     public var fiftyFourth: Array.Generator.Element? {
-        return self.count >= 53 ? self[53] : nil
+        return th(53)
     }
     
     public var fiftyFifth: Array.Generator.Element? {
-        return self.count >= 54 ? self[54] : nil
+        return th(54)
     }
     
     public var fiftySixth: Array.Generator.Element? {
-        return self.count >= 55 ? self[55] : nil
+        return th(55)
     }
     
     public var fiftySeventh: Array.Generator.Element? {
-        return self.count >= 56 ? self[56] : nil
+        return th(56)
     }
     
     public var fiftyEighth: Array.Generator.Element? {
-        return self.count >= 57 ? self[57] : nil
+        return th(57)
     }
     
     public var fiftyNinth: Array.Generator.Element? {
-        return self.count >= 58 ? self[58] : nil
+        return th(58)
     }
     
     public var sixtieth: Array.Generator.Element? {
-        return self.count >= 59 ? self[59] : nil
+        return th(59)
     }
     
     public var sixtyFirst: Array.Generator.Element? {
-        return self.count >= 60 ? self[60] : nil
+        return th(60)
     }
     
     public var sixtySecond: Array.Generator.Element? {
-        return self.count >= 61 ? self[61] : nil
+        return th(61)
     }
     
     public var sixtyThird: Array.Generator.Element? {
-        return self.count >= 62 ? self[62] : nil
+        return th(62)
     }
     
     public var sixtyFourth: Array.Generator.Element? {
-        return self.count >= 63 ? self[63] : nil
+        return th(63)
     }
     
     public var sixtyFifth: Array.Generator.Element? {
-        return self.count >= 64 ? self[64] : nil
+        return th(64)
     }
     
     public var sixtySixth: Array.Generator.Element? {
-        return self.count >= 65 ? self[65] : nil
+        return th(65)
     }
     
     public var sixtySeventh: Array.Generator.Element? {
-        return self.count >= 66 ? self[66] : nil
+        return th(66)
     }
     
     public var sixtyEighth: Array.Generator.Element? {
-        return self.count >= 67 ? self[67] : nil
+        return th(67)
     }
     
     public var sixtyNinth: Array.Generator.Element? {
-        return self.count >= 68 ? self[68] : nil
+        return th(68)
     }
     
     public var seventieth: Array.Generator.Element? {
-        return self.count >= 69 ? self[69] : nil
+        return th(69)
     }
     
     public var seventyFirst: Array.Generator.Element? {
-        return self.count >= 70 ? self[70] : nil
+        return th(70)
     }
     
     public var seventySecond: Array.Generator.Element? {
-        return self.count >= 71 ? self[71] : nil
+        return th(71)
     }
     
     public var seventyThird: Array.Generator.Element? {
-        return self.count >= 72 ? self[72] : nil
+        return th(72)
     }
     
     public var seventyFourth: Array.Generator.Element? {
-        return self.count >= 73 ? self[73] : nil
+        return th(73)
     }
     
     public var seventyFifth: Array.Generator.Element? {
-        return self.count >= 74 ? self[74] : nil
+        return th(74)
     }
     
     public var seventySixth: Array.Generator.Element? {
-        return self.count >= 75 ? self[75] : nil
+        return th(75)
     }
     
     public var seventySeventh: Array.Generator.Element? {
-        return self.count >= 76 ? self[76] : nil
+        return th(76)
     }
     
     public var seventyEighth: Array.Generator.Element? {
-        return self.count >= 77 ? self[77] : nil
+        return th(77)
     }
     
     public var seventyNinth: Array.Generator.Element? {
-        return self.count >= 78 ? self[78] : nil
+        return th(78)
     }
     
     public var eightieth: Array.Generator.Element? {
-        return self.count >= 79 ? self[79] : nil
+        return th(79)
     }
     
     public var eightyFirst: Array.Generator.Element? {
-        return self.count >= 80 ? self[80] : nil
+        return th(80)
     }
     
     public var eightySecond: Array.Generator.Element? {
-        return self.count >= 81 ? self[81] : nil
+        return th(81)
     }
     
     public var eightyThird: Array.Generator.Element? {
-        return self.count >= 82 ? self[82] : nil
+        return th(82)
     }
     
     public var eightyFourth: Array.Generator.Element? {
-        return self.count >= 83 ? self[83] : nil
+        return th(83)
     }
     
     public var eightyFifth: Array.Generator.Element? {
-        return self.count >= 84 ? self[84] : nil
+        return th(84)
     }
     
     public var eightySixth: Array.Generator.Element? {
-        return self.count >= 85 ? self[85] : nil
+        return th(85)
     }
     
     public var eightySeventh: Array.Generator.Element? {
-        return self.count >= 86 ? self[86] : nil
+        return th(86)
     }
     
     public var eightyEighth: Array.Generator.Element? {
-        return self.count >= 87 ? self[87] : nil
+        return th(87)
     }
     
     public var eightyNinth: Array.Generator.Element? {
-        return self.count >= 88 ? self[88] : nil
+        return th(88)
     }
     
     public var ninetieth: Array.Generator.Element? {
-        return self.count >= 89 ? self[89] : nil
+        return th(89)
     }
     
     public var ninetyFirst: Array.Generator.Element? {
-        return self.count >= 90 ? self[90] : nil
+        return th(90)
     }
     
     public var ninetySecond: Array.Generator.Element? {
-        return self.count >= 91 ? self[91] : nil
+        return th(91)
     }
     
     public var ninetyThird: Array.Generator.Element? {
-        return self.count >= 92 ? self[92] : nil
+        return th(92)
     }
     
     public var ninetyFourth: Array.Generator.Element? {
-        return self.count >= 93 ? self[93] : nil
+        return th(93)
     }
     
     public var ninetyFifth: Array.Generator.Element? {
-        return self.count >= 94 ? self[94] : nil
+        return th(94)
     }
     
     public var ninetySixth: Array.Generator.Element? {
-        return self.count >= 95 ? self[95] : nil
+        return th(95)
     }
     
     public var ninetySeventh: Array.Generator.Element? {
-        return self.count >= 96 ? self[96] : nil
+        return th(96)
     }
     
     public var ninetyEighth: Array.Generator.Element? {
-        return self.count >= 97 ? self[97] : nil
+        return th(97)
     }
     
     public var ninetyNinth: Array.Generator.Element? {
-        return self.count >= 98 ? self[98] : nil
+        return th(98)
     }
     
     public var oneHundredth: Array.Generator.Element? {
-        return self.count >= 99 ? self[99] : nil
+        return th(99)
     }
 }
 
